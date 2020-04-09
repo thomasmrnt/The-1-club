@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <!---------------------->
+    <meta name="description" content="chart created using amCharts live editor" />
+    <meta name="description" content="chart created using amCharts live editor" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+    
+  
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+      AmCharts.makeChart("chartdiv",
+        {
+          "type": "serial",
+          "categoryField": "category",
+          "rotate": true,
+          "startDuration": 1,
+          "categoryAxis": {
+            "gridPosition": "start"
+          },
+          "trendLines": [],
+          "graphs": [
+            {
+              "fillAlphas": 1,
+              "id": "AmGraph-1",
+              "title": "graph 1",
+              "type": "column",
+              "valueField": "graph 1"
+            }
+          ],
+          "guides": [
+            {
+              "above": true,
+              "dashLength": 5,
+              "id": "Guide-1",
+              "inside": true,
+              "label": "max allowed value",
+              "labelRotation": 90,
+              "lineAlpha": 1,
+              "lineColor": "#ff0000",
+              "value": 10
+            }
+          ],
+          "valueAxes": [
+            {
+              "id": "ValueAxis-1",
+              "title": ""
+            }
+          ],
+          "allLabels": [],
+          "balloon": {},
+          "titles": [
+            {
+              "id": "Title-1",
+              "size": 15,
+              "text": "Net worth"
+            }
+          ],
+          "dataProvider": [
+            {
+              "category": "Mindy Phan",
+              "graph 1": 8
+            },
+            {
+              "category": "Ellouise Redfern",
+              "graph 1": 2
+            },
+            {
+              "category": "Gethin Joseph",
+              "graph 1": 5
+            },
+            {
+              "category": "Jeffery Faulkner",
+              "graph 1": 100
+            },
+            {
+              "category": "Bessie Orr",
+              "graph 1": 6
+            },
+            {
+              "category": "Gillian Snyder",
+              "graph 1": 300
+            },
+            {
+              "category": "Craig Mcnamara",
+              "graph 1": 1
+            },
+            {
+              "category": "Mahima Hatfield",
+              "graph 1": 900
+            },
+            {
+              "category": "Matteo Bishop",
+              "graph 1": 450
+            },
+            {
+              "category": "Jad Stuart",
+              "graph 1": 8
+            },
+            {
+              "category": "Valentino Mcintosh",
+              "graph 1": 11
+            },
+            {
+              "category": "Blair Smith",
+              "graph 1": 55
+            },
+            {
+              "category": "Rudra Manning",
+              "graph 1": 8
+            },
+            {
+              "category": "Kohen Stevens",
+              "graph 1": 30
+            }
+          ]
+        }
+      );
+    </script>
+    <title>The 1% Club</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">The 1%</span> Club</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="services.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <!---------------Newsletter in h1-------------------->
+        <h1></h1>
+        
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">About Us</h1>
+          <p>
+             This page is a fictional page that allowed you to be the richest men/women on the internet.Now you can brag to all your friend that you're a millionaire/billionaire and also a member of the 1% club. For 1$ you can be rich. Just contact me and i will add your name in the chart.
+          </p>
+          <p class="dark">
+Here an exemple         :                            1$=1million$                                                                 
+          </p>
+          <!-----------Graphic-------------------->
+       <div id="chartdiv" style="width: 100%; height: 400px; background-color: #ffffff;" ></div>
+       <!-----------Graphic-------------------->
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3></h3>
+            <p><!------------------------------></p>
+          </div>
+          
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>All rights reserved, Copyright Thomasmorin &copy; 2020</p>
+      <a href="https://www.instagram.com/we._are._the._world/" class="fa fa-instagram"></a>
+    </footer>
+  </body>
+</html>
